@@ -15,7 +15,7 @@ import {
   Date,
 } from "./BlogCard.styled";
 
-export const BlogCard = ({
+const BlogCard = ({
   poster,
   tag,
   title,
@@ -56,3 +56,5 @@ BlogCard.propTypes = {
   description: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
 };
+
+export default BlogCard;

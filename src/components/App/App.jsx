@@ -1,6 +1,5 @@
 import article from "data/article.json";
 import {
-  BlogCard,
   Container,
   Section,
   Heading,
@@ -8,6 +7,7 @@ import {
   ForbesList,
   CryptoHistory,
 } from "components";
+import BlogCard from "../BlogCard/BlogCard";
 
 export const App = () => {
   return (
